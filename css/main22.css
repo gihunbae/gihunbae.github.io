@@ -1,0 +1,407 @@
+@font-face {
+    font-family: '이쁜폰트';
+    src: url(../font/NanumSquareR.woff);
+}
+
+/*
+@font-face{
+    font-family : '이쁜폰트';
+    font-weight: 800;
+    src : url(../font/NanumSquareB.woff);
+}
+*/
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    /*    폰트 패밀리는 인헤릿된다*/
+    /*    font-family: '이쁜폰트' ;*/
+    font-family: 'gulim';
+
+}
+
+p,
+h4,
+h3,
+h2,
+h1,
+span {
+    transform: rotate(0.03deg)
+}
+
+
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main-phrases {
+    color: #eeee;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px
+}
+
+.main-button {
+
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background: white;
+    /*    내 원래 위치가 기준*/
+    /*    position: relative;*/
+
+    /*    부모태그가 기준*/
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    bottom: 150px;
+
+
+
+}
+
+.main-button:hover {
+    background-color: lightsteelblue;
+
+
+}
+
+.Overlapping-boxes {
+    background-color: darkgrey;
+    width: 80%;
+    /*    최대길이 제한 패딩 안쪽 여백은 제한 안함*/
+    max-width: 600px;
+    height: 200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 50px;
+    text-align: center;
+    /*    실제폭이 600px 제한 된다 패딩 마진 포함*/
+    box-sizing: border-box;
+
+}
+
+.Overlapping-boxes h3 {
+    padding-top: 20px;
+}
+
+.explain-box {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    top: -40px;
+}
+
+/*[타입이 텍스트인것만]*/
+input[type=email] {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.flex-item {
+    /*    실제로 600px이나 100% 채워지지 않고 최대한 맞춤*/
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px
+}
+
+
+
+.flex-container {
+    display: flex;
+    /*    세로 배치 모바일은 세로 pc는 가로 할때 사용가능 low*/
+    /*    flex-direction: column;*/
+    /*    렙은 좌우가 넘치면 블록배치*/
+    /*    flex-wrap: wrap;*/
+    /*    height: 500px;*/
+    /*    정해진 내에 위아래 가운데 정렬*/
+    /*    align-items: center;*/
+    /*    좌우 가운데 정렬*/
+    /*    justify-content: center;*/
+
+}
+
+.nav-box {
+    display: flex;
+    background-color: #F97574;
+    color: white;
+
+}
+
+.nav-item {
+    padding: 0px 10px 0px 10px;
+    font-size: 25px;
+    align-content: center;
+    font-weight: 600;
+}
+
+
+
+
+
+.nav-container {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-flex {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+.product-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-container div{
+    float: left;
+    width:25%;
+    text-align: center;
+}
+
+
+/*1200,992,768,576px 단위들 많이 사용 한 3개정도 사용*/
+@media screen and (max-width: 1200px) {
+    .main-title{
+        font-size: 30px;
+    }
+    
+    .nav-flex{
+        font-size: 12px;
+    }
+    
+    .product-container div{
+        width: 50%;
+            max-width: 700px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .main-title{
+        font-size: 20px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .main-title{
+        font-size: 10px;
+    }
+         .product-container div{
+        width: 100%;
+          
+    }   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-container i {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 20px;
+}
+
+.shop-bg {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.shop-container {
+    display: flex;
+    width: auto;
+}
+
+.shop-item {
+    width: 33%;
+    padding: 10px;
+}
+
+/* 내안에 있는거 불가능 형제 셀럭터라 적용하려면 +써야함*/
+/*img:hover .overlay*/
+/*밑에서부터 위로 올려줘*/
+
+.shop-item img{
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity 1s;
+/*    트렌지션 반전ㄱ 처음은 빠르게 반전ㄴ 처음은 느리게 끝 빠르게*/
+/*    transition-timing-function: cubic-bezier(.43, .54, .49, .9)*/
+}
+
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.parent-element{
+    position: relative;
+    overflow: hidden
+}
+
+.overlay2 {
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 2vw;
+    
+    margin-top: 100%;
+    transition: all 1s;
+
+}
+
+.overlay2 h4{
+    font-size: 5vw;
+    margin: 0;
+}
+
+.overlay2 p{
+        font-size: 2vw;
+    margin: 0;
+}
+
+
+.parent-element:hover .overlay2{
+
+    margin-top: 50%;
+
+    
+}
+
+
+.overlay-wrap {
+      position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;        
+}
+
+.overlay-wrap:hover .overlay-black{
+    margin-top: 50%;
+}
+
+
+
+.overlay-black {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 100%;
+    transition: all 1s;
+}
+
+.custom{
+/*    만점 최고점수*/
+/*    color: red !important;*/
+}
+
+
+/*
+.custom {
+    color: green;
+}
+*/
+/*22점*/
+div.main-background p.custom{
+    color: gray;
+}
+/*div(+1) 10 + 10 총 21점*/
+div.main-background .custom{
+    color: aqua;
+}
+
+
+
+/*main221.css*/
+/*
+.custom {
+        color: skyblue;    
+}
+
+
+*/

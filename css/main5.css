@@ -1,0 +1,117 @@
+.input-test {
+    margin: 5px;
+    font-size: 20px;
+    
+}
+
+.input-test:focus{
+    border-bottom: 5px solid red;
+}
+
+
+
+.cart-background {
+    width: 100%;
+    background-color: #c2d3de;
+    padding: 30px;
+
+}
+
+.box{
+      width: 100%;
+    max-width: 700px;
+    margin: auto;
+
+}
+
+
+
+table{
+    border-collapse: collapse;
+   border-radius: 10px;
+    border-style: hidden;
+/*    box-shadow: 0 0 0 1px #666;*/
+    
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+  
+}
+
+
+.cart-table td, .cart-table th {
+    padding: 15px;
+    border: 1px solid #c2d3de;
+    border-right: none;
+    border-left: none;
+}
+
+
+
+.cell-long {
+/*    최대한 이만큼 차지해라 다른 셀들에 최소폭은 건들지 않는다*/
+    width: 200px;
+}
+
+.cart-table {
+    
+}
+
+.cart-table th:nth-child(2){
+    width: 400px;
+    
+}
+
+
+
+.btn{
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    float: left;
+}
+/*호버 포커스 액티브 순서 중요*/
+.btn:hover{
+     background-color: chocolate;
+}
+/*계속 찍힌 상태 다른곳찍으면 풀림*/
+.btn:focus{
+    background-color: gray;
+}
+/*hfa 호빠 순*/
+.btn:active {
+    background-color: brown;
+    border: 2px solid black;
+    
+}
+
+.input-btn{
+     display: flex; /* 부모 요소를 플렉스 박스로 설정합니다. */
+     align-items: center; /* 자식 요소들을 수직으로 가운데 정렬합니다. */
+
+}
+
+
+
+
+
+.custom-link {
+    text-decoration: none;
+}
+
+.custom-link {
+    color: violet;
+}
+
+.custom-link:visited{
+/*    color: black;*/
+}
+

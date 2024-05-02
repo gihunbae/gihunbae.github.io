@@ -1,0 +1,59 @@
+
+#sword {
+    width: 180px;
+    height: 180px;
+}
+
+.container {
+
+    display: flex
+}
+
+.cat {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 5px;
+    float: left
+
+}
+
+
+.header {
+    height: 180px;
+    width: 550px;
+/*    background: gray;*/
+}
+
+.header-top {
+    height: 60px;
+/*    background: blue;*/
+        
+}
+
+.font-box{
+    
+    
+}
+
+#lion{
+    width: 25px;
+    margin-right: 20px;
+    float: right;
+}
+
+#lion2{
+    width: 25px;
+    position: relative;
+    top: -30px;
+    
+    float: right;
+}
+
+.font {
+    font-size: 15px;
+    margin: 0px;
+    padding-top: 5px;
+    display: 
+}
+

@@ -1,0 +1,15 @@
+
+.ie-nev {
+    margin: 10px;
+    float: left;
+/*    margin-top: 15px;*/
+
+}
+
+
+
+.ie-nav {
+    margin: 10px;
+    display: flex;
+    float: right;
+}

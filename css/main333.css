@@ -1,0 +1,156 @@
+body{
+    background-color: #373737;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    margin-left: 10px;
+}
+
+h1{
+    margin: 0;
+}
+
+input{
+    border-radius: 5px;
+     border: 1px solid #808080; /* 테두리 스타일과 색상 지정 */
+}
+
+.box{
+    width: 600px;
+    height: 700px;
+    background-color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+
+.box-container{
+/*    background-color: antiquewhite;*/
+    position: absolute;
+    height: 600px;
+    width: 500px;
+    margin: 50px;
+}
+
+#boxHeader{
+/*    background-color: aqua;*/
+    height: 100px; 
+}
+
+#boxHeader h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+
+#boxSectionTop{
+/*    background-color: aquamarine;*/
+    height: 200px;
+}
+
+#boxSectionTop p{
+    font-size: 25px;
+}
+
+#boxSectionTop input{
+    height: 50px;
+    font-size: 25px;
+}
+
+.your-email{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.first-name{
+    float: left;
+}
+
+.first-name input{
+   width: 230px;
+}
+
+.last-name{
+    float: right;
+}
+
+.last-name input{
+   width: 230px;
+}
+
+#boxSectionBottom{
+/*    background-color: bisque;*/
+    height: 200px;
+}
+
+#boxSectionBottom p{
+     font-size: 25px;
+    
+}
+
+#boxSectionBottom input{
+width: 100%; /* 입력 요소의 너비를 100%로 설정 */
+    /* 입력 요소의 너비에 패딩과 테두리를 포함 */
+    box-sizing: border-box; 
+    padding-bottom: 150px;
+    
+}
+
+#boxFooter{
+/*    background-color: fuchsia;*/
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+        align-items: center; /* 수직 가운데 정렬 */
+}
+
+.checkbox-sub{
+  margin-right: auto; /* 왼쪽 여백을 최대화하여 왼쪽으로 밀어냄 */
+}
+
+
+
+
+#boxFooter button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FFBF35;
+    border: none;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

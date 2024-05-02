@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: #B2CCD6;
+}
+
+.box {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+}
+
+th{
+    
+}
+
+
+
+td {
+      padding: 10px;
+}
+
+tbody tr{
+    border: 1px solid #B2CCD6;
+    border-left: none;
+    border-right: none;
+}
+
+a{
+    color: #416183;
+}
+
+button {
+    float: right;
+    padding: 20px 30px 20px 30px;
+    border: none;
+    color: white;
+    background-color: #133761;
+    border-radius: 5px;
+}
+
+.box{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    
+}
+.cart-table {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+
+img{
+    display: block;
+}
+
